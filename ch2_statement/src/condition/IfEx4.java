@@ -24,6 +24,6 @@ public class IfEx4 {
     }
 
     System.out.println("등급은 " + grade + " 입니다");
-    System.out.printf("등급은 %c 입니다\n", grade);
+    //System.out.printf("등급은 %c 입니다\n", grade); 둘다 같은 의미
   }
 }
