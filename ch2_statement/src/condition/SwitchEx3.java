@@ -16,10 +16,10 @@ public class SwitchEx3 {
       System.out.println("계절은 여름입니다");
     } else if (month >= 9 && month <= 11) {
       System.out.println("계절은 가을입니다");
-    } else if (month >= 2 && month <= 12) {
-      System.out.println("계절은 겨울입니다 ");
+    } else if (month > 13) {
+      System.out.println("월을 확인해 주세요 ");
     } else {
-      System.out.println("월을 확인해 주세요");
+      System.out.println("계절은 겨울입니다 ");
     }
   }
 }
