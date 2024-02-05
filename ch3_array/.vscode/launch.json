@@ -1,0 +1,113 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ArrayEx14",
+      "request": "launch",
+      "mainClass": "array.ArrayEx14",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx1",
+      "request": "launch",
+      "mainClass": "array.ArrayEx1",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx10",
+      "request": "launch",
+      "mainClass": "array.ArrayEx10",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx11",
+      "request": "launch",
+      "mainClass": "array.ArrayEx11",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx12",
+      "request": "launch",
+      "mainClass": "array.ArrayEx12",
+      "projectName": "ch3_array_e3607d1",
+      "args": "${command:specifyProgramArgs}"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx2",
+      "request": "launch",
+      "mainClass": "array.ArrayEx2",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx3",
+      "request": "launch",
+      "mainClass": "array.ArrayEx3",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx4",
+      "request": "launch",
+      "mainClass": "array.ArrayEx4",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx5",
+      "request": "launch",
+      "mainClass": "array.ArrayEx5",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx6",
+      "request": "launch",
+      "mainClass": "array.ArrayEx6",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx7",
+      "request": "launch",
+      "mainClass": "array.ArrayEx7",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx8",
+      "request": "launch",
+      "mainClass": "array.ArrayEx8",
+      "projectName": "ch3_array_e3607d1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx9",
+      "request": "launch",
+      "mainClass": "array.ArrayEx9",
+      "projectName": "ch3_array_e3607d1"
+    }
+  ]
+}
