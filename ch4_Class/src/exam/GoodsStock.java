@@ -15,4 +15,20 @@ public class GoodsStock {
     this.goodsCode = goodsCode;
     this.stockNum = stockNum;
   }
+
+  // 재고수량 추가 addStock(int amount)
+  // 재고수량 리턴
+  int addStock(int amount) {
+    stockNum = stockNum + amount;
+    return stockNum;
+    // return stockNum+amount;
+  }
+
+  // 재고수량 감소  subtrackStock(int amount)
+  // 재고수량 리턴
+  int subtrackStock(int amount) {
+    stockNum = stockNum - amount;
+    return stockNum;
+    // return stockNum-amount;
+  }
 }

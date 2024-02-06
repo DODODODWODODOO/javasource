@@ -14,4 +14,25 @@ public class Account {
     this.name = name;
     this.money = money;
   }
+
+  // 예금하다 deposit
+  int deposit(int money) {
+    return this.money += money;
+  }
+
+  // int deposit(int amount){
+  //   // 잔액 = 잔액 + 예금액
+  //   balance = balance + amount;
+  //   return balance;
+  // }
+
+  // 출금하다 withdraw
+  int withdraw(int money) {
+    return this.money -= money;
+  }
+  // int withdraw(int amount){
+  //   잔액 = 잔액 - 출금액
+  //   balance = balance - amount;
+  //   return balance;
+  // }
 }
