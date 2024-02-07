@@ -19,7 +19,7 @@ public class ArrayEx15 {
     System.out.println("번호  국어  영어  수학  총점  평균");
     System.out.println("===========================================");
     for (int i = 0; i < score.length; i++) {
-      System.out.printf("%3d", (i + 1));
+      System.out.printf("%4d", (i + 1));
 
       korTotal += score[i][0];
       engTotal += score[i][1];
