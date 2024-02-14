@@ -1,9 +1,9 @@
 package exam2;
 
-public class Won2Dollar extends Converter {
+public class Won2Dolar extends Converter {
 
   @Override
-  protected double convert(double src) {}
+  protected double converter(double src) {}
 
   @Override
   protected String getSrcString() {}
