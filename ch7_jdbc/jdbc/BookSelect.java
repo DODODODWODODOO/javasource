@@ -13,25 +13,25 @@ public class BookSelect {
     ResultSet rs = null; // select 할때만 사용
 
     try {
-      // 1. 드라이버 로드
+      //1. 드라이버 로드
       Class.forName("oracle.jdbc.OracleDriver");
 
-      // 2. 커넥션 얻기
+      //2. 커넥션 얻기
       String url = "jdbc:oracle:thin:@localhost:1521:xe";
       String user = "c##test2";
       String password = "test";
       con = DriverManager.getConnection(url, user, password);
 
-      // 3. sql 구문 작성
-      // String sql = "SELECT * FROM BOOKTBL WHERE CODE =1000"; // code가 1000 인것만
-      String sql = "SELECT * FROM BOOKTBL"; // 전체
-      // 4. sql 구문 전송
+      //3. sql 구문 작성
+      //String sql = "SELECT * FROM BOOKTBL WHERE code=1000";
+      String sql = "SELECT * FROM BOOKTBL";
+      //4. sql 구문 전송
       pstmt = con.prepareStatement(sql);
-      // 5. sql 구문 실행
-      // executeQuery() - 실행할 sql 구문이 select 일때 호출(리턴 값 ResultSet)
+      //5. sql 구문 실행
+      // executeQuery() - 실행할 sql구문이 select 일때 호출(리턴 값 ResultSet)
       rs = pstmt.executeQuery();
-      // ResultSet : sql 실핼 결과가 담긴 객체(테이블 모양)
-      // rs.next(); : true 일 때 읽어올 결과가 있음
+      // ResultSet : sql 실행 결과가 담긴 객체(테이블 모양)
+      // rs.next() : true 일 때 읽어올 결과가 있음
       // rs.getString(컬럼번호) : 가져올 컬럼 데이터가 varchar2(nvarchar2)
       // rs.getString(컬럼명)
       // rs.getInt(컬럼번호) or rs.getInt(컬럼명) : 가져올 컬럼 데이터가 number

@@ -6,12 +6,13 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 // JDBC(Java DataBase Connectivity)
-// 자바에서 데이터 베이스 접속할 수 있도록 제공되는 api
-// 자바와 DB 사이 연결을 담당하는 드라이버 필요 => DB 에 따라 다른 드라이버 필요
+// 자바에서 데이터베이스 접속할 수 있도록 제공되는 api
+// 자바와 DB 사이 연결 담당 드라이버 필요 => DB 에 따라 다른 드라이버 필요
 // C:\Users\soldesk\AppData\Roaming\DBeaverData\drivers\maven\maven-central\com.oracle.database.jdbc
 // ojdbc11.jar(jar : 클래스 압축)
 
 // java.sql.Connection
+// java.sql.PreparedStatement
 
 public class DbConnect {
 
@@ -21,7 +22,7 @@ public class DbConnect {
     PreparedStatement pstmt = null;
 
     try {
-      // 오라클 드라이버 로드
+      //오라클 드라이버 로드
       Class.forName("oracle.jdbc.OracleDriver");
 
       // jdbc:oracle:thin:@//[hostname]:[port]/[DB service name]
