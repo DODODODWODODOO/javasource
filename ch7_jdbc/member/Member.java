@@ -10,7 +10,7 @@ import lombok.ToString;
 // ~~DTO : 생성자, getter, setter, toString
 // @Data : toString, Getter, Setter, default 생성자, equals, HashCode
 
-@Data
+// @Data
 @Getter
 @Setter
 @ToString
