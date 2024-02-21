@@ -80,10 +80,10 @@ public class MyShop implements Ishop {
     products.add(phone);
     SmartTV tv = new SmartTV("삼성 KQ75", 1508964, "4K");
     // products[3] = tv;
-    products.add(phone);
+    products.add(tv);
     tv = new SmartTV("LG OLED", 6549845, "Ultra");
     // products[4] = tv;
-    products.add(phone);
+    products.add(tv);
   }
 
   @Override
