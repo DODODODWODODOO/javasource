@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SerialEx",
+      "request": "launch",
+      "mainClass": "io.SerialEx",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
+      "name": "FileWriterEx2",
+      "request": "launch",
+      "mainClass": "io.FileWriterEx2",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
+      "name": "ReaderEx1",
+      "request": "launch",
+      "mainClass": "io.ReaderEx1",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
+      "name": "FileWriterEx1",
+      "request": "launch",
+      "mainClass": "io.FileWriterEx1",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
       "name": "FileInputStreamEx1",
       "request": "launch",
       "mainClass": "io.FileInputStreamEx1",
